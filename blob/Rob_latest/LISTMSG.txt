@@ -1,0 +1,11 @@
+<b>Configuration name: Rob_latest</b>	  (Existing session overwritten)
+Saved at Wed 27 Jun 20:39:14 BST 2018
+
+Openbox theme:  RLabs-Dark\n
+GTK theme:  RLabs-Dark;  Icon Theme: ArchLabs-Light\n
+Background set with nitrogen:\n/home/rob/Pictures/wallpapers/bunsen/other/Fabric.jpg;\n/home/rob/Pictures/wallpapers/bunsen/default/Bunsen crystal grey2.png;\n
+Running Conkys:\t\n\tconky -c /home/rob/.config/conky/robAL.conkyrc\n
+Running Tint2s:\t\n\t/home/rob/.config/tint2/tint2rc\n
+dmenu config:  /home/rob/.config/dmenu/dmenu-bind.sh\n
+X terminal config:  /home/rob/.bashrc; /home/rob/.Xresources (/home/rob/.bashrc will not be auto-restored)\n
+Terminator config:  /home/rob/.config/terminator/config\n
