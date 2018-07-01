@@ -1,0 +1,122 @@
+conky.config = {
+
+--Various settings
+background = true,
+cpu_avg_samples = 2,
+diskio_avg_samples = 10,
+double_buffer = true,
+if_up_strictness = 'address',
+net_avg_samples = 2,
+no_buffers = true,
+temperature_unit = 'celsius',
+text_buffer_size = 2048,
+update_interval = 1,
+imlib_cache_size = 0,
+
+--Placement
+alignment = 'top_right',
+gap_x = 40,
+gap_y = 40,
+minimum_height = 200,
+minimum_width = 230,
+maximum_width = 230,
+
+
+--Graphical
+border_inner_margin = 5,
+border_outer_margin = 5,
+border_width = 0,
+default_bar_width = 280,
+default_bar_height = 10,
+default_gauge_height = 25,
+default_gauge_width =40,
+default_graph_height = 40,
+default_graph_width = 153,
+default_shade_color = '#000000',
+default_outline_color = '#000000',
+draw_borders = false,
+draw_graph_borders = true,
+draw_shades = false,
+draw_outline = false,
+
+--Textual
+extra_newline = false,
+format_human_readable = true,
+font = 'Ubuntu Mono:size=10:regular',
+max_text_width = 0,
+max_user_text = 16384,
+override_utf8_locale = true,
+short_units = true,
+top_name_width = 21,
+top_name_verbose = false,
+uppercase = false,
+use_spacer = 'none',
+use_xft = true,
+xftalpha = 1,
+
+--Windows
+own_window = true,
+own_window_argb_value = 220,
+own_window_argb_visual = true,
+own_window_class = 'Conky',
+own_window_colour = '#2B303B',
+own_window_hints = 'undecorated,below,above,sticky,skip_taskbar,skip_pager',
+own_window_transparent = false,
+own_window_title = 'system_conky',
+own_window_type = 'desktop',
+
+--Colours
+default_color = '#8FA1B3',
+color1 = '#8FA1B3',
+
+};
+
+conky.text = [[
+${alignc}S Y S T E M    I N F O ${#2C8F7D}
+${hr}
+${#8FA1B3}
+Host:${alignr}${nodename}
+Uptime:${alignr}${uptime}
+
+${goto 60}Used${alignr}Size
+Root${goto 60}${fs_used /}${alignr}${fs_size /}
+Home${goto 60}${fs_used /home}${alignr}${fs_size /home}
+
+${goto 60}MEM${alignr}MAX
+RAM${goto 60}${mem}${alignr}${memmax}
+Swap${goto 60}${swap}${alignr}${swapmax}
+
+CPU:${goto 60}Used${alignr}GHz
+Avg${goto 60}${cpu cpu0}%${alignr}${freq_g}
+
+${alignc}S H O R T C U T    K E Y S ${#2C8F7D}
+${hr}
+${#8FA1B3}
+Alt + F12${alignr}Drop Terminal
+Alt + F2${alignr}Run Dialog
+Alt + F3${alignr}D-menu
+Alt + Tab${alignr}Switch Window
+Super${alignr}Main Menu
+Super + Arrows${alignr}Tiling
+Super + Tab${alignr}Client Menu
+Super + t${alignr}Terminal
+Super + f${alignr}File Manager
+Super + g${alignr}Geary Mail
+Super + d${alignr}Disk Utility
+Super + e${alignr}Editor
+Super + o${alignr}Office WP
+Super + n${alignr}Notes
+Super + m${alignr}Media Player
+Super + s${alignr}Music Streamer
+Super + a${alignr}Audio Player
+Super + p${alignr}Photo Manager
+Super + w${alignr}Web Browser
+Super + h${alignr}Task Manager
+Super + l${alignr}Lock Screen
+Super + r${alignr}Redshift
+Super + b${alignr}Backup Utility
+Super + v${alignr}Volume Control
+Super + x${alignr}Logout
+PrtSc${alignr}Screenshot
+
+]];
