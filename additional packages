@@ -1,0 +1,35 @@
+## debian 9 repos
+
+geary					-	email client
+darktable				-	image editor
+cmus					-	terminal music player
+quodlibet				-	music player
+redshift				-	nightlight
+gnome-disk-utility		-	gparted alternative
+gnome-multi-writer		-	USB ISO writer
+shotwell				-	photo manager
+chromium				-	browser
+deja-dup				-	backup
+guake					-	drop-down terminal
+simplescreenrecorder	-	screen capture
+steam					-	games client
+gpick					-	colour picker
+pinta					-	image editor
+gnome-sound-recorder	-	simple audio capture
+scribus					-	desctop publishing
+obs						-	open broadcaster
+snapd					-	snaps backend
+flatpak					-	flatpak backend
+
+## .deb files (proprietory)
+
+spotify					-	audio streamer
+wps office				-	office suite
+ocenaudio				-	advanced audio recorder and editor
+simplenote				-	notes application
+telegram				-	chat
+zoom					-	vidio and audio conference
+
+## flatpak
+
+gimp					-	GIMP version 2.10
